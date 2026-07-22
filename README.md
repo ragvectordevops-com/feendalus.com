@@ -44,3 +44,18 @@ Every prominent CTA uses two lines and includes `info@feendalus.com` on the seco
 - Confirm the canonical URL before launch.
 - Enable compression, caching and HTTPS at the server/CDN level.
 - Add analytics and consent tooling only if required.
+
+## Launch additions
+
+This package now includes:
+
+- Canonical, Open Graph and structured-data URLs aligned to `https://www.feendalus.com/`
+- `robots.txt` and `sitemap.xml`
+- Four 1200×630 social-sharing images in `/og/`
+- `favicon.ico`, `favicon.svg`, `apple-touch-icon.png` and `site.webmanifest`
+- About, Contact, Privacy, Terms and Responsible AI pages
+- “All products” navigation and portfolio backlinks from every product page
+- Security-header configurations for Apache/cPanel, Netlify/Cloudflare Pages and Vercel
+- Explicit keyboard focus styling and shared footer trust links
+
+Before production, confirm the hosting platform, review the Privacy Policy and Terms with qualified counsel, and replace or extend the security policy if external analytics, forms, fonts or embeds are introduced.
