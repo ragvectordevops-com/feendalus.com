@@ -59,3 +59,8 @@ This package now includes:
 - Explicit keyboard focus styling and shared footer trust links
 
 Before production, confirm the hosting platform, review the Privacy Policy and Terms with qualified counsel, and replace or extend the security policy if external analytics, forms, fonts or embeds are introduced.
+
+
+## Asset cache version
+
+All HTML routes reference CSS and JavaScript with `?v=20260722-2` so browsers and CDNs fetch the corrected launch assets instead of stale pre-launch files. Increment this value after future CSS or JavaScript deployments.

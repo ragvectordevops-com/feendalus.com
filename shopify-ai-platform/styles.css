@@ -283,7 +283,7 @@ p { margin-top: 0; }
 
 .site-footer { padding: 42px 0; color: #b6c0bc; background: #0d1312; }
 .footer-grid { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 45px; }
-.footer-brand .brand-mark { color: var(--white); }
+.footer-brand .brand-mark { color: var(--green); }
 .footer-brand strong { color: var(--white); }
 .footer-grid > p { max-width: 670px; margin: 0; font-size: .69rem; }
 .footer-grid > a { color: var(--white); font-size: .78rem; font-weight: 800; }
